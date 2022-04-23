@@ -20,20 +20,20 @@
 
     <header>
 
-        <div class="navbar-fixed ">
-            <nav class="white z-depth-0 ">
-                <div class="nav-wrapper container">
-                    <img src="imagem/logo100.png" alt="Logo Materialize">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse valign"><i class="material-icons black-text">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#" class="black-text">Sobre</a></li>
-                        <li><a href="#" class="black-text">Começando</a></li>
-                        <li><a href="#" class="black-text">CSS</a></li>
-                        <li><a href="#" class="black-text">Componentes</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
+        <nav class="white z-depth-0 ">
+            <div class="nav-wrapper container">
+                <img src="imagem/logo100.png" alt="Logo Materialize">
+                <a href="#" data-activates="mobile-demo" class="button-collapse valign"><i class="material-icons black-text">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#" class="black-text">Sobre</a></li>
+                    <li><a href="#" class="black-text">Começando</a></li>
+                    <li><a href="#" class="black-text">CSS</a></li>
+                    <li><a href="#" class="black-text">Componentes</a></li>
+                </ul>
+            </div>
+        </nav>
+
 
 
         <!--Menu mobile-->
@@ -155,17 +155,53 @@
 
                 <div class="col s12 m4 l4">
                     <h5>Conectar</h5>
-                    <a href="#" class="btn waves-effect waves-light cinza clarear-3 black-text"><i class="material-icons left">pets</i>Git</a>
-                    <br><br>
-                    <a href="#" class="btn waves-effect waves-light  azul escurecer-2 white-text left"><i class="material-icons left ">flutter_dash</i>Seguir @MaterializeCSS</a>
+                    <a href="https://github.com/dogfalo/materialize" class="btn waves-effect waves-light grey lighten-3 black-text" target="_blank"><i class="material-icons left">pets</i>Git</a><br><br>
+
+                    <div class="chip blue">
+                        <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fmaterializecss.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5EMaterializeCSS&screen_name=MaterializeCSS" target="_blank" class="white-text"> Seguir @MaterializeCSS
+                        <i class="material-icons left ">flutter_dash</i></a>
+                    </div>
+                </div>
+            </div>
+            <div><br>
+                <h3>Patrocinadores do Patreon</h3>
+                <div class="row">
+                    <div class="col s12 m4 l4">
+
+                        <a href="https://www.cartoonnetwork.com.br/" target="_blank"><img src="logo_patrocinadores/cartoon150.jpg" alt="Logo Cartoon Network"></a>
+                        <br>
+                        <a href="https://www.stillio.com/" target="_blank"><img src="logo_patrocinadores/Stillio150.jpg" alt="Logo Stillio"></a><br>
+                        <a href="https://www.disney.it/" target="_blank"><img src="logo_patrocinadores/disney150.jpg" alt="Logo Disney"></a><br>
+                    </div>
+
+                    <div class="col s12 m4 l4">
+                        <a href="https://www.marvel.com/movies" target="_blank"><img src="logo_patrocinadores/marvel150.jpg" alt="Logo Marvel Studio"></a>
+
+                        <a href="https://www.pixar.com/" target="_blank"><img src="logo_patrocinadores/pixar150.jpg" alt="Logo Pixar"></a>
+                    </div>
+
+                    <div class="col s12 m4 l4">
+                        <a href="https://www.starwars.com/" target="_blank"><img src="logo_patrocinadores/star150.jpg" alt="Logo Star Wars"></a>
+
+                        <a href="https://turmadamonica.uol.com.br/" target="_blank"><img src="logo_patrocinadores/turma150.jpg" alt="Logo Turma da Mônica"></a>
+
+                        <a href="http://www.nossoamiguinho.pt/" target="_blank"><img src="logo_patrocinadores/amiguinho150.jpg" alt="Logo Nosso Amiguinho"></a>
+                    </div>
                 </div>
             </div>
         </div>
-
-
+        <footer>
+            <div class="footer-copyright">
+                <div class="container">
+                    <p>© 2014 - 2022 Materiaze. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
     </main>
+
+
     <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
+    <script src=" https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
 
     <!--JS-->
     <script src="materialize/js/materialize.js "></script>
@@ -176,9 +212,6 @@
             // Botão menu
         $(".button-collapse ").sideNav();
     </script>
-
-
-
 </body>
 
 </html>
