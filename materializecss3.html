@@ -18,78 +18,152 @@
 <body>
 
 
+    <header>
 
-    <div class=" row">
-        <div class="col s3 red">
-            <div class="navbar-fixed ">
-                <nav class="white z-depth-0 ">
-
-                    <div class="nav-wrapper ">
-                        <img src=" imagem/logo100.png " alt="Materialize ">
-                        <!--Botao-->
-                        <ul id="nav-mobile">
-                            <li><button class="waves-effect waves-teal btn-flat dropdown-button grey lighten-5" data-activates="dropdown" data-beloworigin="true"> 1.0.0<i class="material-icons right">arrow_drop_down</i></button>
-                            </li>
-                        </ul>
-
-
-                        <!--Menu-->
-                        <a href="# " data-activates="mobile-demo " class="button-collapse "><i class="material-icons black-text ">menu</i></a>
-                        <ul class="right hide-on-med-and-down ">
-                            <li><a href="# " class="black-text ">Sobre</a></li>
-                            <li><a href="# " class="black-text ">Começando</a></li>
-                            <li><a href="# " class="black-text ">CSS</a></li>
-                            <li><a href="# " class="black-text ">Componentes</a></li>
-                        </ul>
-                    </div>
-
-                </nav>
-            </div>
+        <div class="navbar-fixed ">
+            <nav class="white z-depth-0 ">
+                <div class="nav-wrapper container">
+                    <img src="imagem/logo100.png" alt="Logo Materialize">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse valign"><i class="material-icons black-text">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#" class="black-text">Sobre</a></li>
+                        <li><a href="#" class="black-text">Começando</a></li>
+                        <li><a href="#" class="black-text">CSS</a></li>
+                        <li><a href="#" class="black-text">Componentes</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
 
-
-        <!--Dropdown-->
-        <ul class="dropdown-content " id="dropdown ">
-            <li>0.100.2</li>
-        </ul>
         <!--Menu mobile-->
-        <ul class="side-nav " id="mobile-demo ">
-            <li><a href="# ">Sobre</a></li>
-            <li><a href="# ">Começando</a></li>
-            <li><a href="# ">CSS</a></li>
-            <li><a href="# ">Componentes</a></li>
-            <li><a href="# ">JavaScript</a></li>
-            <li><a href="# ">Formulário</a></li>
-            <li><a href="# ">Móvel</a></li>
-            <li><a href="# ">Mostruário</a></li>
-            <li><a href="# ">Temas</a></li>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Começando</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Componentes</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Formulário</a></li>
+            <li><a href="#">Móvel</a></li>
+            <li><a href="#">Mostruário</a></li>
+            <li><a href="#">Temas</a></li>
         </ul>
+    </header>
 
-
-
-
-        <div class="col s8 red ">
+    <main>
+        <div class="container">
             <h1>Sobre</h1>
             <h4>Conheça o Material Design e nossa equipe de projetos.</h4>
             <h1>Design material</h1>
             <p>Criado e projetado pelo Google, o Material Design é uma linguagem de design que combina os princípios clássicos do design de sucesso com inovação e tecnologia. O objetivo do Google é desenvolver um sistema de design que permita uma experiência
                 de usuário unificada em todos os seus produtos em qualquer plataforma.</p>
 
-            <iframe width=" 560 " height="315 " src="https://www.youtube.com/embed/Q8TXgCzxEnw " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen>
+            <div class="video-container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/Q8TXgCzxEnw " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
             </iframe>
+            </div>
 
             <h2>Princípios</h2>
+
+            <div class="row" id="espaco">
+                <div class="col s12 m4 l4">
+                    <img src="imagem/metaphor220.png" alt="Folhas em branco" class="responsive-img" src="cool_pic.jpg">
+                    <h4>O material é a metáfora</h4>
+                    <p>
+                        A metáfora do material define a relação entre espaço e movimento. A idéia é que a tecnologia seja inspirada no papel e na tinta e seja utilizada para facilitar a criatividade e a inovação. Superfícies e arestas fornecem dicas visuais familiares que permitem
+                        que os usuários entendem rapidamente a tecnologia além do mundo físico.
+                    </p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img src="imagem/bold220.png" alt="Sinal de Mais" class="responsive-img" src="cool_pic.jpg">
+                    <h4>Negrito, gráfico, intencional</h4>
+                    <p>
+                        Elementos e componentes como grades, tipografia, cor e imagens não são apenas visualmente agradáveis,mas também criam uma sensação de hierarquia, significa do e foco. A ênfase em diferentes ações e componentes cria um guia visula para os usuários.
+                    </p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img src="imagem/motion220.png" alt="Vários triângulos" class="responsive-img" src="cool_pic.jpg">
+                    <h4>O movimento fornece significado</h4>
+                    <p>O movimento permite ao usuário traçar um paralelo entre o que vê na tela e na vida real. Ao fornecer feedback e familiaridade, isso permite que o usuário mergulhe totalmente em uma tecnologia desconhecida. O movimento contém consistência
+                        e continuidade, além de fornecer aos usários informações subconscientes adicionais sobre objetos e transformações.</p>
+                </div>
+
+            </div>
+            <h2>Conheça o time</h2>
+            <p>Somos uma equipe de estudantes da Carnegie Mellon University</p>
+            <img src="imagem/materialize_team.jpeg" alt="equipe" class="responsive-img" src="cool_pic.jpg">
+
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img src="imagem/alvin150.png" alt="Alvin Wang">
+                </div>
+                <div class="col s12 m9 l9">
+                    <h4>Alvin Wang</h4>
+                    <p>Alvin é formado em Sistema de Informação e Interação Humano-Computador. Ele trabalhou como engenheiro de software na Fidelity Investments no verão passado.</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img src="imagem/Alan150.png" alt="Alan Chang">
+                </div>
+                <div class="col s12 m9 l9">
+                    <h4>Alan Chang</h4>
+                    <p>Alan é formado em Sistema de Informação com especialização em Ciência da Computação. Ele trabalhou como desenvolvedor front-end na Shift Collaborative no verão passado.</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img src="imagem/alex150.png" alt="Alex Mark">
+                </div>
+                <div class="col s12 m9 l9 ">
+                    <h4>Alex Mark</h4>
+                    <p>Alex é formado em Sistema de Informação com especialização em Interação Humano-Computador. Ele trabalhou como desenvolvedor de software para a Intuit no verão passado.</p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img src="imagem/kevin150.png" alt="Kevin Louie">
+                </div>
+                <div class="col s12 m9 l9 ">
+                    <h4>Kevin Louie</h4>
+                    <p>Kevin é formado em Sistema de Informação com especialização em Interação Humano-Computador. No verão passado, ele trabalhou como analista de tecnologia na PPG Industries.</p>
+                    <br>
+                </div>
+            </div>
+
+            <!--Ajude-->
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <h5>Ajude a Materializar Crescer</h5>
+                    <p>Esperamos que Você tenha gostado de usar o Materialize e, se sentir que ele o ajudou e deseja apoiar a equipe, pode nos ajudar doando ou apoiando-nos no Patreon. Qualquer quantia ajudaria a apoiar e continuar o desenvolvimento deste
+                        projeto, sua ajuda é muito apreciada.</p>
+                    <a href="#" class="waves-effect waves-light btn red lighten-2 white-text">APOIE-NOS</a>
+                </div>
+
+
+                <div class="col s12 m4 l4">
+                    <h5>Junte-se à discussão</h5>
+                    <p>Temos uma sala de bate-papo Gitter configurada onde voc°E pode falar diretamente conosco. Entre e discuta novos recursos, objetivo futuros, problemas ou perguntas gerais, ou qualquer outra coisar que você possa imaginar.</p>
+                    <a href="#" class="waves-effect waves-light btn red lighten-2 white-text">BATE-PAPO</a>
+                </div>
+
+                <div class="col s12 m4 l4">
+                    <h5>Conectar</h5>
+                    <a href="#" class="btn waves-effect waves-light cinza clarear-3 black-text"><i class="material-icons left">pets</i>Git</a>
+                    <br><br>
+                    <a href="#" class="btn waves-effect waves-light  azul escurecer-2 white-text left"><i class="material-icons left ">flutter_dash</i>Seguir @MaterializeCSS</a>
+                </div>
+            </div>
         </div>
-    </div>
 
 
-
-
-
-
-
-
+    </main>
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
 
@@ -102,6 +176,8 @@
             // Botão menu
         $(".button-collapse ").sideNav();
     </script>
+
+
 
 </body>
 
